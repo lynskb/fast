@@ -21,7 +21,7 @@ speedtest源码：https://github.com/sivel/speedtest-cli
 ====================================================
 选择服务器想测试的节点.<失效节点多,建议测试多个节点>
 ====================================================
-1. 本地节点；2.深圳电信：3.上海电信多线：4.成都电信：5.北京电信；6.杭州电信：7.北京联通：8.北京移动：9.西安移动：10.南京联通：11.广州移动
+1. 本地节点；2.深圳电信：3.上海电信：4.成都电信：5.北京电信；6.杭州阿里云多线：7.北京联通：8.北京移动：9.西安移动：10.南京联通：11.广州移动
 ====================================================
 12.重庆移动：13.重庆联通：14.南宁电信：15.合肥电信：16.合肥联通：17.武汉电信：18.南昌电信：19.长沙电信：20.上海联通：
 ====================================================
@@ -38,10 +38,10 @@ echo -n "$MSG_MAIN_MENU"
 			  python speedtest.py
 			  ;;
 		2)
-		      python speedtest.py --server 5081
+			  python speedtest.py --server 5081
 			  ;;
 		3)
-			  python speedtest.py --server 17019
+			  python speedtest.py --server 3633
 			  ;;
 		4)
 			  python speedtest.py --server 4624
@@ -50,7 +50,7 @@ echo -n "$MSG_MAIN_MENU"
 			  python speedtest.py --server 4751
 			  ;;
 		6)
-			  python speedtest.py --server 7509
+			  python speedtest.py --server 17019
 			  ;;
 		7)  
 		      python speedtest.py --server 5145
